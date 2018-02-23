@@ -27,7 +27,7 @@ func (op operationJoinResponse) Process(state *albionState) {
 	}
 
 	state.LocationId = loc
-	log.Debugf("Updating player location to %v.", loc)
+	log.Infof("Updating player location to %v.", loc)
 
 	state.CharacterId = op.CharacterID
 	b64, _ := op.CharacterID.Base64()
