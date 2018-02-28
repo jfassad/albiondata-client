@@ -3,7 +3,7 @@ package client
 import (
 	"strconv"
 
-	"github.com/broderickhyman/albiondata-client/log"
+	"github.com/jfassad/albiondata-client/log"
 )
 
 type operationGetGameServerByCluster struct {

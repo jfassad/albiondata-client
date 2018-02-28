@@ -3,8 +3,8 @@ package client
 import (
 	"strconv"
 
-	"github.com/broderickhyman/albiondata-client/lib"
-	"github.com/broderickhyman/albiondata-client/log"
+	"github.com/jfassad/albiondata-client/lib"
+	"github.com/jfassad/albiondata-client/log"
 )
 
 type operationJoinResponse struct {

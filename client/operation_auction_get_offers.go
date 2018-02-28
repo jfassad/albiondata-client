@@ -3,9 +3,9 @@ package client
 import (
 	"encoding/json"
 
-	"github.com/broderickhyman/albiondata-client/lib"
-	"github.com/broderickhyman/albiondata-client/log"
-	"github.com/broderickhyman/albiondata-client/notification"
+	"github.com/jfassad/albiondata-client/lib"
+	"github.com/jfassad/albiondata-client/log"
+	"github.com/jfassad/albiondata-client/notification"
 )
 
 type operationAuctionGetOffers struct {

@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/broderickhyman/go-githubupdate/updater"
-	"github.com/broderickhyman/albiondata-client/client"
-	"github.com/broderickhyman/albiondata-client/log"
-	"github.com/broderickhyman/albiondata-client/systray"
+	"github.com/albiondata/go-githubupdate/updater"
+	"github.com/jfassad/albiondata-client/client"
+	"github.com/jfassad/albiondata-client/log"
+	"github.com/jfassad/albiondata-client/systray"
 )
 
 var version string

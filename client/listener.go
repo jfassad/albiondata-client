@@ -7,7 +7,7 @@ import (
 	"github.com/google/gopacket/layers"
 	"github.com/google/gopacket/pcap"
 	photon "github.com/hmadison/photon_spectator"
-	"github.com/broderickhyman/albiondata-client/log"
+	"github.com/jfassad/albiondata-client/log"
 )
 
 type listener struct {
